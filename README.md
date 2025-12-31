@@ -39,12 +39,14 @@ This repository contains programming exercises in **x86-64 Assembly** using **NA
 
 ## 🚀 How to Run the Exercises
 
-### 🖥️ Arch/WSL (Recommended)
+### 🖥️ Arch Linux/WSL (Recommended)
 
 1. **Clone the repository** on your machine:
    ```bash
    git clone https://github.com/edavsys/asm-x86-fundamentals.git
    ```
+   [!IMPORTANT] If you are already on Arch Linux, skip to Step 4.
+   If you are on Windows, follow all steps to set up WSL Arch.
 2. **Download and install WSL Arch** in PowerShell:
    ```bash
    wsl --install -d archlinux
@@ -67,7 +69,7 @@ This repository contains programming exercises in **x86-64 Assembly** using **NA
    ```
 7. **Run the exercise**: use the Makefile to compile, run, and clean in one command:
    ```bash
-    make exec 01_pointer_basics
+    make run 01_arithmetic_operations
    ```
 
 ### 🌐 OneCompiler (No Installation Required)
