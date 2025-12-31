@@ -39,7 +39,7 @@ This repository contains programming exercises in **x86-64 Assembly** using **NA
 
 ## 🚀 How to Run the Exercises
 
-### 🖥️ WSL Arch (Recommended)
+### 🖥️ Arch/WSL (Recommended)
 
 1. **Clone the repository** on your machine:
    ```bash
@@ -61,26 +61,14 @@ This repository contains programming exercises in **x86-64 Assembly** using **NA
    ld -v      # e.g. GNU ld (GNU Binutils) 2.45.1
    uname -m   # e.g. x86_64
    ```
-6. **Navigate to the exercises folder**. Adjust the path according to your repository location:
+6. **Navigate to the exercises folder**. Adjust the path to the location of the repository:
    ```bash
-   cd /mnt/c/.../asm-x86-fundamentals/exercises
+   cd asm-x86-fundamentals/exercises
    ```
-7. **Assemble the code**. Converts the `.asm` file into an object file `.o`:
+7. **Run the exercise**: use the Makefile to compile, run, and clean in one command:
    ```bash
-   nasm -f elf64 01_arithmetic_operations.asm -o exercise.o
+    make exec 01_pointer_basics
    ```
-8. **Link and create the executable**:
-   ```bash
-   ld exercise.o -o exercise
-   ```
-9. **Run the program**:
-   ```bash
-   ./exercise
-   ```
-10. **All in one command**:
-    ```bash
-    nasm -f elf64 01_arithmetic_operations.asm -o exercise.o && ld exercise.o -o exercise && ./exercise
-    ```
 
 ### 🌐 OneCompiler (No Installation Required)
 
