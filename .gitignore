@@ -3,12 +3,10 @@
 
 # Object files
 *.o
+exercise.o
 
 # Executables
-exercise.o
 exercise
-*.out
-*.exe
 
 # Temporary or backup files
 *~

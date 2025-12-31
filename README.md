@@ -66,7 +66,7 @@ This repository contains programming exercises in **x86-64 Assembly** using **NA
    ```bash
    cd asm-x86-fundamentals/exercises
    ```
-7. **Execute exercises**: The Makefile automates assembly, linking, execution, and cleanup:
+7. **Execute exercises**:
    ```bash
    make run 01_arithmetic_operations
    ```

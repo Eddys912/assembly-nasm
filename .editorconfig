@@ -16,6 +16,11 @@ trim_trailing_whitespace = true
 [*.asm]
 max_line_length = 100
 
+# Makefile
+[Makefile]
+indent_size = 2
+indent_style = tab
+
 # Markdown files
 [*.md]
 max_line_length = off
