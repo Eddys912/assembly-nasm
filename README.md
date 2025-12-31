@@ -45,8 +45,10 @@ This repository contains programming exercises in **x86-64 Assembly** using **NA
    ```bash
    git clone https://github.com/edavsys/asm-x86-fundamentals.git
    ```
+
    > [!IMPORTANT]
    > **If you are already using Arch Linux**, skip to **Step 4**. **If you are on Windows**, follow all steps to install and configure WSL Arch.
+
 2.  **Download and install WSL Arch** in PowerShell:
    ```bash
    wsl --install -d archlinux
