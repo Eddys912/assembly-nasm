@@ -32,7 +32,7 @@ This repository contains programming exercises in **x86-64 Assembly** using **NA
 
 ## 📋 Installation Requirements
 
-- **Operating System**: WSL2 on Windows or Linux distributions (Arch, Debian, Ubuntu, etc.).
+- **Operating System**: Linux (Arch, Debian, Ubuntu, etc.) or WSL2 on Windows.
 - **Architecture**: x86-64 (64-bit).
 - **NASM**: version 3.01 or higher.
 - **GNU Linker (ld)**: version 2.45.1 or higher.
