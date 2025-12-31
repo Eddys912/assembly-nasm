@@ -1,0 +1,22 @@
+# EditorConfig for asm-x86-fundamentals
+# Documentation: https://editorconfig.org
+
+root = true
+
+# Universal rules for all files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Assembly files
+[*.asm]
+max_line_length = 100
+
+# Markdown files
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false

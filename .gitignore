@@ -1,0 +1,30 @@
+# GitIgnore for asm-x86-fundamentals
+# Documentation: https://git-scm.com/docs/gitignore
+
+# Object files
+*.o
+
+# Executables
+exercise.o
+exercise
+*.out
+*.exe
+
+# Temporary or backup files
+*~
+*.temp
+*.tmp
+*.bak
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NASM listing files
+*.lst
